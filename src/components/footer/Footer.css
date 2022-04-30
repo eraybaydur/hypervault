@@ -1,0 +1,26 @@
+footer{
+    width: 80vw;
+    height: 50vh;
+    margin: 0 auto;
+       background-color: black;
+}
+
+.footer > .contact {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 1rem;
+}
+
+.contact {
+    color: white;
+}
+
+.social-media{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+

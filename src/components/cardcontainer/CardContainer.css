@@ -1,0 +1,26 @@
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 0;
+  height: 50vh;
+  margin: 10px auto;
+}
+@media screen and (max-width: 1400px) {
+  .info-cards {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info-cards {
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+}

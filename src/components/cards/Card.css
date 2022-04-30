@@ -1,0 +1,38 @@
+.card {
+  /* From https://css.glass */
+  background: rgba(197, 120, 255, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(17, 198, 210, 0.1);
+  backdrop-filter: blur(150px);
+  -webkit-backdrop-filter: blur(150px);
+  border: 1px solid rgba(0, 0, 0, 0.61);
+  padding: 3rem;
+  min-width: 15rem;
+  width: 20%;
+  text-align: center;
+}
+
+.card > h1 {
+    font-size: var(--header1 / 2 );
+    color: #fff;
+    margin-bottom: 12px;
+    text-shadow: 0 0 3px #fff, 0 0 75px #000000fc, 2px 2px 2px rgba(108, 238, 197, 0.342);
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 50%;
+    height: fit-content;
+    padding: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .card{
+    width: 80vw;
+    margin: 2rem auto;
+  }
+}
+
+  
